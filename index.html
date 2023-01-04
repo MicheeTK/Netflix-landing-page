@@ -15,68 +15,83 @@
     </title>
   </head>
   <body>
-    <div class="banner-wrapper">
+    <div class="page-container">
       <header class="header-wrapper">
-        <nav class="nav-bar">
-          <img src="assets/logo.png" alt="Netflix logo" />
-          <a href="https://www.netflix.com/za/login" target="_blank">Sign In</a>
-        </nav>
+        <img src="assets/logo.png" alt="Netflix logo" />
+        <a href="https://www.netflix.com/za/login" target="_blank"> Sign In </a>
       </header>
 
-      <div class="banner-container">
-        <h1>Unlimited movies, TV shows, and more.</h1>
-        <h2>Watch anywhere. Cancel anytime.</h2>
-
-        <form get-started-form>
-          <h3>
-            Ready to watch? Enter your email to create or restart your
-            membership.
-          </h3>
-          <input type="email" />
-          <button>Get Started</button>
-        </form>
-      </div>
-    </div>
-
-    <main class="info-container">
-      <h1>Enjoy on your TV.</h1>
-      <p>
-        Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
-        players, and more.
-      </p>
-
-      <img
-        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
-        data-uia="our-story-card-img"
-      />
-      <video autoplay playsinline muted loop>
-        <source
-          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
-          type="video/mp4"
+      <main class="main-container">
+        <img
+          class="bg-img"
+          src="https://assets.nflxext.com/ffe/siteui/vlv3/84526d58-475e-4e6f-9c81-d2d78ddce803/a53b2bf2-0f5d-460a-b1cb-4d0f79a2e258/ZA-en-20221228-popsignuptwoweeks-perspective_alpha_website_small.jpg"
+          srcset="
+            https://assets.nflxext.com/ffe/siteui/vlv3/84526d58-475e-4e6f-9c81-d2d78ddce803/a53b2bf2-0f5d-460a-b1cb-4d0f79a2e258/ZA-en-20221228-popsignuptwoweeks-perspective_alpha_website_small.jpg  1000w,
+            https://assets.nflxext.com/ffe/siteui/vlv3/84526d58-475e-4e6f-9c81-d2d78ddce803/a53b2bf2-0f5d-460a-b1cb-4d0f79a2e258/ZA-en-20221228-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w,
+            https://assets.nflxext.com/ffe/siteui/vlv3/84526d58-475e-4e6f-9c81-d2d78ddce803/a53b2bf2-0f5d-460a-b1cb-4d0f79a2e258/ZA-en-20221228-popsignuptwoweeks-perspective_alpha_website_large.jpg  1800w
+          "
         />
-      </video>
-    </main>
 
-    <footer>
-      <ul>
-        <li>FAQ</li>
-        <li>Help Center</li>
-        <li>Account</li>
-        <li>Media Center</li>
-        <li>Investor Relations</li>
-        <li>Jobs</li>
-        <li>Redeem Gift Cards</li>
-        <li>Ways to Watch</li>
-        <li>Terms of Use</li>
-        <li>Privacy</li>
-        <li>Cookie Preferences</li>
-        <li>Corporate Information</li>
-        <li>Contact Us</li>
-        <li>Speed Test</li>
-        <li>Legal Notices</li>
-        <li>Only on Netflix</li>
-        <li>Netflix South Africa</li>
-      </ul>
-    </footer>
+        <h1>Enjoy on your TV.</h1>
+        <p>
+          Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+          players, and more.
+        </p>
+
+        <img
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+          data-uia="our-story-card-img"
+        />
+        <video autoplay playsinline muted loop>
+          <source
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+            type="video/mp4"
+          />
+        </video>
+      </main>
+
+      <footer>
+        <p class="footer-top-msg">
+          Questions? Call Me on <a href="27 610-655-497">27 610-655-497</a>
+        </p>
+        <ul>
+          <li><a href="https://help.netflix.com/support/412"> FAQ </a></li>
+          <li><a href="https://help.netflix.com/"> Help Center </a></li>
+          <li><a href="https://www.netflix.com/youraccount"> Account </a></li>
+          <li><a href="https://media.netflix.com/"> Media Center </a></li>
+          <li><a href="http://ir.netflix.com/"> Investor Relations </a></li>
+          <li><a href="https://jobs.netflix.com/jobs"> Jobs </a></li>
+          <li>
+            <a href="https://www.netflix.com/redeem"> Redeem Gift Cards</a>
+          </li>
+          <li><a href="https://www.netflix.com/watch"> Ways to Watch</a></li>
+          <li>
+            <a href="https://help.netflix.com/legal/termsofuse">
+              Terms of Use
+            </a>
+          </li>
+          <li><a href="https://help.netflix.com/legal/privacy"> Privacy</a></li>
+          <li>
+            <a href="https://www.netflix.com/za/#"> Cookie Preferences</a>
+          </li>
+          <li>
+            <a href="https://help.netflix.com/legal/corpinfo">
+              Corporate Information
+            </a>
+          </li>
+          <li><a href="https://help.netflix.com/contactus"> Contact Us </a></li>
+          <li><a href="https://fast.com/">Speed Test</a></li>
+          <li>
+            <a href="https://help.netflix.com/legal/notices">Legal Notices</a>
+          </li>
+          <li>
+            <a href="https://www.netflix.com/za/browse/genre/839338">
+              Only on Netflix
+            </a>
+          </li>
+        </ul>
+        <p class="footer-country-txt">Netflix South Africa</p>
+      </footer>
+    </div>
   </body>
 </html>
