@@ -16,6 +16,10 @@ body {
   font-size: 1.6rem;
 }
 
+/* .page-container {
+  width: 100%;
+} */
+
 .header-wrapper {
   max-height: 6.4rem;
   margin: 2rem 5.6rem 0rem;
@@ -23,6 +27,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 .sign-in {
   background-color: #e50914;
   font-size: inherit;
@@ -31,59 +36,27 @@ body {
   font-weight: 400;
   text-decoration: none;
   border-radius: 3px;
-  contrast
 }
 
 .netflix-logo {
-  max-height: 3.6rem;
+  max-height: 3.6 rem;
   max-width: 13.4rem;
 }
 
-.banner-wrapper {
-  height: 100vh;
-  width: 100vw;
+.main-cont__sect-1 {
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
 
-.bg-img {
-  /* background: url(./assets/bg-image.jpg); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat;
-  background-position: center; */
-  height: 100vh;
-  width: 100vw;
+.main-cont__sect-1__bg-img {
+  width: 100%;
 }
 
-/* .header-wrapper {
-  padding-top: 20px;
-} */
-
-/* .nav-bar {
-  display: flex;
-  margin-inline: 45px;
-  justify-content: space-between;
-  align-items: baseline;
-  height: 45px;
-} */
-
-/* .nav-bar > img {
-  height: 32px;
-} */
-
-/* .nav-bar > a {
-  padding: 7px 17px;
-  border-radius: 3px;
-  background: rgb(229, 9, 20);
-  text-decoration: none;
-  color: white;
-  font-weight: 400;
-  font-size: 16px;
-} */
-
-/* .banner-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 80%;
-  background-color: green;
-} */
+.dark-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
