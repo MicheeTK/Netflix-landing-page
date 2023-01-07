@@ -1,12 +1,42 @@
+:root {
+  /*root has a higher specificity than html thus 62.5% will be imposed*/
+  font-size: 62.5%;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.927);
 }
 
 body {
+  background-color: #222;
   font-family: Helvetica, sans-serif;
-  color: black;
+  font-size: 1.6rem;
+}
+
+.header-wrapper {
+  max-height: 6.4rem;
+  margin: 2rem 5.6rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign-in {
+  background-color: #e50914;
+  font-size: inherit;
+  margin: 0.8rem 0 0;
+  padding: 0.7rem 1.7rem;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 3px;
+  contrast
+}
+
+.netflix-logo {
+  max-height: 3.6rem;
+  max-width: 13.4rem;
 }
 
 .banner-wrapper {
