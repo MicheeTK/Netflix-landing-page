@@ -17,15 +17,14 @@ body {
 }
 
 .main-cont__sect-1 {
-  height: calc(100vh + 20px);
-  width: 100%;
+  height: calc(100vh - 30px);
   /* border-bottom: 0.8rem solid #222222; */
   border-bottom: 0.8rem solid red;
 }
 
 .main-cont__sect-1__bg-img {
   width: 100%;
-  height: 100%;
+  height: 103%;
   position: absolute;
   top: 0;
   z-index: -1;
@@ -34,7 +33,7 @@ body {
 
 .dark-overlay {
   width: 100%;
-  height: 100%;
+  height: 103%;
   position: absolute;
   top: 0;
   background-color: rgba(0, 0, 0, 0.6);
@@ -67,10 +66,73 @@ body {
 .main-cont__sect-1__card h1 {
   max-width: 64rem;
   text-align: center;
-  font-size: max(5rem);
-  max-height: 11rem;
+  font-size: max(6.3rem);
   position: relative;
   top: 16.5rem;
-  margin: 0px auto;
+  margin-inline: auto;
+  margin-bottom: 1.6rem;
   line-height: 1.1;
+}
+
+.main-cont__sect-1__card h2 {
+  max-width: 64rem;
+  text-align: center;
+  font-size: max(2.6rem);
+  position: relative;
+  top: 16.5rem;
+  margin-inline: auto;
+  margin-bottom: 2.6rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.main-cont__sect-1__card--form {
+  height: 11.4rem;
+  position: relative;
+  top: 16.5rem;
+  text-align: center;
+}
+
+.main-cont__sect-1__card--form h3 {
+  max-width: 62rem;
+  height: 2.4rem;
+  font-weight: 400;
+  font-size: 1.92rem;
+  position: relative;
+  margin-inline: auto;
+  margin-bottom: 1.7rem;
+}
+
+.form-input-field {
+  width: 50rem;
+  height: 7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.get-started-btn {
+  background-color: #e50914;
+  width: 24rem;
+  height: 7rem;
+  font-size: 2.9rem;
+  font-weight: 400;
+  border: none;
+  border-left: 0.8px solid rgb(51, 51, 51);
+}
+
+.email-form-lockup {
+  display: inline-flex;
+  justify-content: center;
+}
+
+#chevron_right-icon {
+  height: 1.95rem;
+  width: 0.91rem;
+  margin-left: 1.3rem;
+}
+
+.get-started-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
