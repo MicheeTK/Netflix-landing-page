@@ -11,15 +11,14 @@
 }
 
 body {
-  background-color: #222;
+  background-color: #000000;
   font-family: Helvetica, sans-serif;
   font-size: 1.6rem;
 }
 
 .main-cont__sect-1 {
   height: calc(100vh - 30px);
-  /* border-bottom: 0.8rem solid #222222; */
-  border-bottom: 0.8rem solid red;
+  border-bottom: 0.8rem solid #222222;
 }
 
 .main-cont__sect-1__bg-img {
@@ -64,9 +63,9 @@ body {
 }
 
 .main-cont__sect-1__card h1 {
-  max-width: 64rem;
+  max-width: 88.3rem;
   text-align: center;
-  font-size: max(6.3rem);
+  font-size: max(4.8rem);
   position: relative;
   top: 16.5rem;
   margin-inline: auto;
@@ -135,4 +134,42 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+.main-cont__sect-2--TV-anim-card {
+  display: flex;
+  position: relative;
+  border-bottom: 0.8rem solid #222222;
+}
+
+.main-cont__sect-2--TV-anim-card {
+  padding: 7.2rem 3.2rem;
+}
+
+.TV-anim-card-txt h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.TV-anim-card-txt h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.TV-anim-card-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.TV-anim-card-img-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TV-anim-card-img-video video {
+  display: flex;
+  position: absolute;
+  z-index: -1;
 }
