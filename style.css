@@ -65,7 +65,7 @@ body {
 .main-cont__sect-1__card h1 {
   max-width: 88.3rem;
   text-align: center;
-  font-size: max(4.8rem);
+  font-size: max(4.2rem);
   position: relative;
   top: 16.5rem;
   margin-inline: auto;
@@ -172,4 +172,51 @@ body {
   display: flex;
   position: absolute;
   z-index: -1;
+}
+
+footer {
+  margin: 0 47.5px;
+  padding: 70px 45px;
+}
+
+footer * {
+  color: #757575;
+}
+
+footer li {
+  list-style-type: none;
+  font-size: 13px;
+}
+
+footer ul li:hover {
+  cursor: pointer;
+}
+
+.footer-top-msg {
+  margin-bottom: 30px;
+}
+
+.footer-links {
+  columns: 4;
+  line-height: 2;
+}
+
+.languages {
+  display: flex;
+  height: 53px;
+  width: 142px;
+  color: #999999;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #999999;
+  padding: 0 10px;
+  margin-top: 30px;
+}
+
+.languages select {
+  margin: 10px;
+  border: none;
+  appearance: none;
+  background-color: black;
+  color: #999999;
 }
